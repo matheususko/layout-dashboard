@@ -89,7 +89,7 @@ Servidores web
     Unitário
         Foco maior, tentar analisar todas funções e métodos desenvolvidos, focado mais no código, existe ferramentas automatizadas para esses testes.
         (metodologia test driven development)
-[link](https://jestjs.io/pt-BR/)  
+[Link do JestJs](https://jestjs.io/pt-BR/)  
     Segurança
         São teste mais focais, checar vulnerabilidade. Existe ferramentas.
     Performance
@@ -100,28 +100,28 @@ Nesse etapa estou configurando meu workspace para gerar a consepção de trabalh
 
 ## Anotação para criação ambiente de development
 
-[git checkout -b dev]() `para criar uma breach novade desenvolvimento`
+$ git checkout -b dev `para criar uma breach novade desenvolvimento`
 
-[git add e commit criando  o commet]() `é recomendado com a seguinte sintaxe "feat: aqui vai a expecificação feito."`
+$ git add e commit criando  o commet `é recomendado com a seguinte sintaxe "feat: aqui vai a expecificação feito."`
 
-[git push --set-upstram origin dev]() `nesse caso como não estou desenvolvendo com uma equipe, não será necessario fazer [pull request]`.
+$ git push --set-upstram origin dev `nesse caso como não estou desenvolvendo com uma equipe, não será necessario fazer pull request]`.
 
 Após ser passado pela etapa de QA (`Um engenheiro de controle de qualidade é um profissional que encontra e corrige bugs em um produto ou programa antes de seu lançamento`), podemos subir a requisção para o ambiente de Homologação
 
 ## Anotação para criação ambiente de homologação
 
-[git checkout -b "beta"]() 
-[git push --set-upstram origin beta]()
-[git fetch --all]() `Para pegar todas as alterações`
-[git merge main]() `compara se a branch main ta atualizada`
-[git checkout main]() `Para se locomover até a branch main.`
-[git merge beta]() `compara se a branch beta ta atualizada`
+$ git checkout -b "beta" 
+$ git push --set-upstram origin beta
+$ git fetch --all `Para pegar todas as alterações`
+$ git merge main `compara se a branch main ta atualizada`
+$ git checkout main `Para se locomover até a branch main.`
+$ git merge beta `compara se a branch beta ta atualizada`
 
 ---
 
 # FTP
 File Transfer Protocolo
-[https://filezilla-project.org/](`Programa que faz uma interface com ftp`)
+https://filezilla-project.org/ `Programa que faz uma interface com ftp`
 
 ## SSH
     - Protocolo Padrão de acesso do linux
