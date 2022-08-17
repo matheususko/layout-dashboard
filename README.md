@@ -111,15 +111,15 @@ Após ser passado pela etapa de QA (`Um engenheiro de controle de qualidade é u
 ## Anotação para criação ambiente de homologação
 
 $ git checkout -b "beta"
-.
+---
 $ git push --set-upstram origin beta
-.
+---
 $ git fetch --all `Para pegar todas as alterações`
-.
+---
 $ git merge main `compara se a branch main ta atualizada`
-.
+---
 $ git checkout main `Para se locomover até a branch main.`
-.
+---
 $ git merge beta `compara se a branch beta ta atualizada`
 
 ---
